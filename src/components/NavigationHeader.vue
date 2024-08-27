@@ -15,12 +15,12 @@ const toggleMenu = () => {
   <div class="text-white p-4 top-0 left-0 w-full flex justify-between items-center mt-10 mb-16">
     <a href="#">
       <div class="spinner">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
       </div>
     </a>
 
@@ -28,61 +28,97 @@ const toggleMenu = () => {
     <nav class="hidden md:flex space-x-4">
       <ul class="flex space-x-4 text-lg">
         <li class="font-bold menu-item">
-          <a href="#home" class="hover:text-[#76ABAE] transition duration-300">Home</a>
+          <a
+            href="#home"
+            class="hover:text-[#76ABAE] transition duration-300"
+          >Home</a>
         </li>
         <li class="font-bold menu-item">
-          <a href="#about" class="hover:text-[#76ABAE] transition duration-300">About</a>
+          <a
+            href="#about"
+            class="hover:text-[#76ABAE] transition duration-300"
+          >About</a>
         </li>
         <li class="font-bold menu-item">
-          <a href="#projects" class="hover:text-[#76ABAE] transition duration-300">Projects</a>
+          <a
+            href="#projects"
+            class="hover:text-[#76ABAE] transition duration-300"
+          >Projects</a>
         </li>
         <li class="font-bold menu-item">
-          <a href="#contact" class="hover:text-[#76ABAE] transition duration-300">Contact</a>
+          <a
+            href="#contact"
+            class="hover:text-[#76ABAE] transition duration-300"
+          >Contact</a>
         </li>
       </ul>
     </nav>
 
     <!-- Menu Toggle Button for Mobile -->
-    <button @click="toggleMenu" class="block md:hidden relative z-30">
+    <button
+      class="block md:hidden relative z-30"
+      @click="toggleMenu"
+    >
       <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-8 w-8 transition-transform transform"
-          :class="{'rotate-90': isMenuOpen}"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-8 w-8 transition-transform transform"
+        :class="{'rotate-90': isMenuOpen}"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
       >
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M4 6h16M4 12h16m-7 6h7"
+        />
       </svg>
     </button>
 
     <!-- Menu Items Appearing Under the Menu Icon -->
     <div
-        v-if="isMenuOpen"
-        class="absolute right-20 top-28 mt-2 flex flex-col items-end p-4 rounded-lg shadow-lg transform transition-transform duration-300 ease-out origin-top-right z-40"
+      v-if="isMenuOpen"
+      class="absolute right-20 top-28 mt-2 flex flex-col items-end p-4 rounded-lg shadow-lg transform transition-transform duration-300 ease-out origin-top-right z-40"
     >
       <ul class="flex flex-col space-y-2 text-right">
         <li class="font-bold text-lg text-white menu-item">
-          <a href="#home" @click="toggleMenu" class="hover:text-[#76ABAE] transition duration-300">Home</a>
+          <a
+            href="#home"
+            class="hover:text-[#76ABAE] transition duration-300"
+            @click="toggleMenu"
+          >Home</a>
         </li>
         <li class="font-bold text-lg text-white menu-item">
-          <a href="#about" @click="toggleMenu" class="hover:text-[#76ABAE] transition duration-300">About</a>
+          <a
+            href="#about"
+            class="hover:text-[#76ABAE] transition duration-300"
+            @click="toggleMenu"
+          >About</a>
         </li>
         <li class="font-bold text-lg text-white menu-item">
-          <a href="#projects" @click="toggleMenu" class="hover:text-[#76ABAE] transition duration-300">Projects</a>
+          <a
+            href="#projects"
+            class="hover:text-[#76ABAE] transition duration-300"
+            @click="toggleMenu"
+          >Projects</a>
         </li>
         <li class="font-bold text-lg text-white menu-item">
-          <a href="#contact" @click="toggleMenu" class="hover:text-[#76ABAE] transition duration-300">Contact</a>
+          <a
+            href="#contact"
+            class="hover:text-[#76ABAE] transition duration-300"
+            @click="toggleMenu"
+          >Contact</a>
         </li>
       </ul>
     </div>
 
     <!-- Shadow Overlay when Menu is Opened -->
     <div
-        v-if="isMenuOpen"
-        @click="toggleMenu"
-        class="fixed inset-0 bg-black bg-opacity-50 z-10"
-    ></div>
+      v-if="isMenuOpen"
+      class="fixed inset-0 bg-black bg-opacity-50 z-10"
+      @click="toggleMenu"
+    />
   </div>
 </template>
 

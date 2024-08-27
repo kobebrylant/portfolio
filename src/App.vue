@@ -2,17 +2,18 @@
 import NavigationHeader from "./components/NavigationHeader.vue";
 import TitleComponent from "./components/TitleComponent.vue";
 import AboutMeComponent from "./components/AboutMeComponent.vue";
+import TechnologiesComponent from './components/TechnologyComponent.vue'
 </script>
 
 <template>
   <div class="flex items-center justify-center h-screen">
     <div class="h-screen w-8/12">
-    <NavigationHeader />
-    <TitleComponent />
-    <AboutMeComponent />
+      <NavigationHeader />
+      <TitleComponent />
+      <AboutMeComponent />
+      <TechnologiesComponent />
     </div>
   </div>
-
 </template>
 
 <style scoped>
