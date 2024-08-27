@@ -7,7 +7,7 @@
     id="projects"
     class="w-full"
   >
-    <h1 class="pb-2 font-medium text-3xl mb-5 bg-gradient-to-r from-purple-500 to-cyan-400 bg-clip-text text-transparent">
+    <h1 class="pb-2 font-bold text-3xl mb-5 bg-gradient-to-r from-purple-500 to-cyan-400 bg-clip-text text-transparent">
       Projects
     </h1>
     <div class="mb-1 p-6 bg-[#31363F] rounded-lg shadow-lg border-[#31363F] transition duration-500 ease-in-out relative group overflow-hidden">

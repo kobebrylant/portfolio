@@ -7,7 +7,7 @@
     id="experience"
     class="w-full"
   >
-    <h1 class="pb-2 font-medium text-3xl mb-5 bg-gradient-to-r from-purple-500 to-cyan-400 bg-clip-text text-transparent">
+    <h1 class="pb-2 font-bold text-3xl mb-5 bg-gradient-to-r from-purple-500 to-cyan-400 bg-clip-text text-transparent">
       Experience and Education
     </h1>
 
