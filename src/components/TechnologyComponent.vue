@@ -1,6 +1,9 @@
 <template>
-  <div class="w-full">
-    <h1 class="pb-2 border-b-2 font-medium text-3xl mb-5">
+  <div
+    id="technologies"
+    class="w-full"
+  >
+    <h1 class="pb-2 font-medium text-3xl mb-5 bg-gradient-to-r from-violet-600 to-cyan-300 bg-clip-text text-transparent ">
       Technologies
     </h1>
     <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">

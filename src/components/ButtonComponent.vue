@@ -27,11 +27,11 @@ const props = defineProps<TechnologyButtonProps>();
 /* Define the glowing effect */
 div {
     border: 2px solid transparent;
-    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+    transition: box-shadow 0.4s ease, border-color 0.4s ease;
 }
 
 div:hover {
     border-color: #76ABAE;
-    box-shadow: 0 0 8px 2px #76ABAE, 0 0 16px 4px #76ABAE;
+    box-shadow: 0 0 8px 2px #a855f7, 0 0 16px 4px #22d3ee;
 }
 </style>

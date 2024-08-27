@@ -1,12 +1,14 @@
 <script setup lang="ts">
-import GithubIcon from "../assets/GithubIcon.vue";
-import LinkedinIcon from "../assets/LinkedinIcon.vue";
+import GithubIcon from "../assets/icons/GithubIcon.vue";
+import LinkedinIcon from "../assets/icons/LinkedinIcon.vue";
 import ResumeButton from "./ResumeButton.vue";
 </script>
 
 <template>
   <!-- Main Content -->
-  <div class="w-full mt-5 flex justify-between flex-row h-60 mb-5">
+  <div
+    class="w-full mt-5 flex justify-between flex-row h-60 mb-5"
+  >
     <div class="flex flex-col w-full md:w-7/12 justify-start mb-0">
       <h1 class="text-5xl mb-3 font-bold">
         Wojciech Skuła
