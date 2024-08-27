@@ -4,7 +4,7 @@
 <template>
   <!-- Button that triggers the download -->
   <a
-    href="/public/Wojciech_Skuła_CV.pdf"
+    href="/dist/Wojciech_Skuła_CV.pdf"
     download
     class=" hover:bg-[#76ABAE] hover:border-[#76ABAE] font-bold py-2 px-4 rounded inline-flex items-center border-2  border-[#31363F] transition duration-500 ease-in-out "
   >
