@@ -16,7 +16,7 @@ import FooterComponent from './components/FooterComponent.vue'
   >
     <div class="h-screen w-8/12">
       <NavigationHeader />
-      <TitleComponent class="mt-16" />
+      <TitleComponent />
       <AboutMeComponent />
       <TechnologiesComponent class="mt-12" />
       <ExperienceComponent class="mt-12" />

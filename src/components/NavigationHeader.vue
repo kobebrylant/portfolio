@@ -36,7 +36,7 @@ onUnmounted(() => {
 
 <template>
   <!-- Responsive Navigation Header -->
-  <div class="text-white p-4  top-0 left-0 w-full flex justify-between items-center z-50 ">
+  <div class="text-white p-4  top-0 left-0 w-full flex justify-between items-center z-50 mt-10 ">
     <a href="#">
       <div class="spinner">
         <div />
