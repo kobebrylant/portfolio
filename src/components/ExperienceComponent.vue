@@ -11,29 +11,8 @@
       Experience and Education
     </h1>
 
-    <!-- Education Card -->
-    <div class="mb-1 p-6 bg-[#31363F] rounded-lg shadow-lg border-[#31363F] transition duration-500 ease-in-out relative group overflow-hidden">
-      <div
-        class="absolute inset-0 bg-gradient-to-r from-violet-600 to-cyan-300 opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out pointer-events-none"
-      />
-      <h2 class="text-xl font-bold tracking-wide mb-3 relative z-10 pb-2">
-        Education
-      </h2>
-      <div class="mb-4 relative z-10">
-        <h3 class="font-medium text-lg mb-3">
-          Applied Computer Science in English (Third Year)
-        </h3>
-        <p class="font-light mb-3">
-          Oct 2021 - Present
-        </p>
-        <p class="font-medium mb-3">
-          Wroclaw University of Science and Technology
-        </p>
-      </div>
-    </div>
-
     <!-- Experience Card -->
-    <div class="mb-1 p-6 bg-[#31363F] rounded-lg shadow-lg border-[#31363F] transition duration-500 ease-in-out relative group overflow-hidden">
+    <div class="mb-5 p-6 bg-[#31363F] rounded-lg shadow-lg border-[#31363F] transition duration-500 ease-in-out relative group overflow-hidden">
       <div
         class="absolute inset-0 bg-gradient-to-r from-violet-600 to-cyan-300 opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out pointer-events-none"
       />
@@ -52,30 +31,29 @@
         </p>
       </div>
     </div>
+
+    <!-- Education Card -->
+    <div class="p-6 bg-[#31363F] rounded-lg shadow-lg border-[#31363F] transition duration-500 ease-in-out relative group overflow-hidden">
+      <div
+        class="absolute inset-0 bg-gradient-to-r from-violet-600 to-cyan-300 opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out pointer-events-none"
+      />
+      <h2 class="text-xl font-bold tracking-wide mb-3 relative z-10 pb-2">
+        Education
+      </h2>
+      <div class="mb-4 relative z-10">
+        <h3 class="font-medium text-lg mb-3">
+          Applied Computer Science in English (Third Year)
+        </h3>
+        <p class="font-light mb-3">
+          Oct 2021 - Present
+        </p>
+        <p class="font-medium mb-3">
+          Wroclaw University of Science and Technology
+        </p>
+      </div>
+    </div>
   </div>
 </template>
-
-<script setup lang="ts">
-import { ref } from 'vue';
-
-// Reactive reference to hold the style for the gradient
-const cardStyle = ref({});
-
-const updateGradientPosition = (event) => {
-    const { clientX, clientY } = event;
-    const rect = event.target.getBoundingClientRect();
-    const x = clientX - rect.left;
-    const y = clientY - rect.top;
-
-    // Update the background position of the gradient to follow the cursor
-    cardStyle.value = {
-        backgroundPosition: `${x}px ${y}px`,
-    };
-};
-
-// Add event listeners for mouse movement on each card
-
-</script>
 
 <style scoped>
 .group:hover .absolute {
