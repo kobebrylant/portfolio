@@ -14,7 +14,7 @@ import FooterComponent from './components/FooterComponent.vue'
     id="home"
     class="flex items-center justify-center h-screen"
   >
-    <div class="h-screen w-8/12">
+    <div class="h-screen w-10/12">
       <NavigationHeader />
       <TitleComponent />
       <AboutMeComponent />
