@@ -24,7 +24,7 @@
           TBSCG - Junior Web Developer
         </h3>
         <p class="font-light mb-3">
-          Jul 2023 - Aug 2024
+          Jul 2023 - Sep 2024
         </p>
         <p class="mb-3">
           I collaborated with clients to implement technical solutions using TypeScript, Java, PostgreSQL, and Vue.js. I earned the AWS Cloud Practitioner Certificate, enhancing my cloud expertise. I created and maintained RESTful API endpoints and contributed to the development and maintenance of a management dashboard for dealers and clients, improving user experience.
