@@ -5,7 +5,6 @@ import ResumeButton from "./ResumeButton.vue";
 </script>
 
 <template>
-  <!-- Main Content -->
   <div
     class="w-full mt-16 flex justify-between flex-row h-60 mb-5"
   >

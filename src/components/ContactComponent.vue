@@ -14,7 +14,6 @@
       <span class="text-xl mb-3 font-light">Please feel free to contact me via email</span>
     </div>
 
-    <!-- Contact Button -->
     <div class="flex justify-center mt-6 mb-10">
       <a
         href="mailto:w_skula@wp.pl"

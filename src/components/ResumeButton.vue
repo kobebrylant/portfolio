@@ -2,7 +2,6 @@
 </script>
 
 <template>
-  <!-- Button that triggers the download -->
   <a
     href="/Wojciech_Skuła_CV.pdf"
     download

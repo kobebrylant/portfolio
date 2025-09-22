@@ -41,8 +41,8 @@
         name="JavaScript"
         :logo="JsIcon"
       />      <ButtonComponent
-        name="Magnolia"
-        :logo="MagnoliaIcon"
+        name="Quarkus"
+        :logo="QuarkusIcon"
       />
     </div>
   </div>
@@ -59,5 +59,5 @@ import NodeJsIcon from '../assets/icons/NodeJsIcon.vue'
 import PostgreSqlIcon from '../assets/icons/PostgreSqlIcon.vue'
 import JiraIcon from '../assets/icons/JiraIcon.vue'
 import JsIcon from '../assets/icons/JsIcon.vue'
-import MagnoliaIcon from '../assets/icons/MagnoliaIcon.vue'
+import QuarkusIcon from '../assets/icons/QuarkusIcon.vue'
 </script>

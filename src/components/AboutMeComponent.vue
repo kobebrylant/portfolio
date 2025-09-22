@@ -15,10 +15,9 @@
       my strong work ethic and positive attitude will serve me well in any
       professional setting.
 
-      In my free time, I enjoy staying active by playing tennis and basketball, swimming, and exploring nature through hiking. Music is also a significant part of my life, providing both relaxation and inspiration.
+      In my free time, I enjoy staying active by playing tennis and basketball, swimming, and exploring nature through hiking/climbing. Music is also a significant part of my life, providing both relaxation and inspiration.
 
-      On the technical side, I have experience working with a variety of technologies. I am proficient in Java, TypeScript and Vue.js. I have hands-on experience with AWS for cloud computing and PostgreSQL for database management.
-      I have acquired AWS Cloud Practitioner Certificate in 2023. I have also worked with Node.js and JavaScript. I am always eager to learn new technologies and expand my skill set.
+      I am always eager to learn new technologies and expand my skill set.
 
     </span>
   </div>

@@ -35,7 +35,6 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <!-- Responsive Navigation Header -->
   <div class="text-white p-4  top-0 left-0 w-full flex justify-between items-center z-50 mt-10 ">
     <a href="#">
       <div class="spinner">
@@ -48,7 +47,6 @@ onUnmounted(() => {
       </div>
     </a>
 
-    <!-- Normal Menu for Larger Screens -->
     <nav class="hidden md:flex space-x-4">
       <ul class="flex space-x-4 text-lg">
         <li class="font-bold menu-item">
@@ -84,7 +82,6 @@ onUnmounted(() => {
       </ul>
     </nav>
 
-    <!-- Menu Toggle Button for Mobile -->
     <button
       class="block md:hidden relative z-30"
       @click="toggleMenu"
@@ -106,7 +103,6 @@ onUnmounted(() => {
       </svg>
     </button>
 
-    <!-- Menu Items Appearing Under the Menu Icon -->
     <div
       v-if="isMenuOpen"
       class="absolute right-20 top-28 mt-2 flex flex-col items-end p-4 rounded-lg shadow-lg transform transition-transform duration-300 ease-out origin-top-right z-40"
@@ -150,15 +146,12 @@ onUnmounted(() => {
       </ul>
     </div>
 
-    <!-- Shadow Overlay when Menu is Opened -->
     <div
       v-if="isMenuOpen"
       class="fixed inset-0 bg-black bg-opacity-50 z-10"
       @click="toggleMenu"
     />
   </div>
-
-  <!-- Back to Top Button -->
 
   <button
     v-if="showBackToTop"

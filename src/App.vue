@@ -20,7 +20,7 @@ import FooterComponent from './components/FooterComponent.vue'
       <AboutMeComponent />
       <TechnologiesComponent class="mt-12" />
       <ExperienceComponent class="mt-12" />
-      <ProjectsComponent class="mt-12" />
+      <!--      <ProjectsComponent class="mt-12" />-->
       <ContactComponent class="mt-12" />
       <FooterComponent class="mt-12" />
     </div>
