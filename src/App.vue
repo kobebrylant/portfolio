@@ -5,7 +5,6 @@ import AboutMeComponent from "./components/AboutMeComponent.vue";
 import TechnologiesComponent from './components/TechnologyComponent.vue'
 import ContactComponent from './components/ContactComponent.vue'
 import ExperienceComponent from './components/ExperienceComponent.vue'
-import ProjectsComponent from './components/ProjectsComponent.vue'
 import FooterComponent from './components/FooterComponent.vue'
 </script>
 
